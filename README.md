@@ -16,4 +16,6 @@ Hi! This is my first project.
 - Message over WebSocket (use socket.io package
 - Search user by username
 
+Link to test -> [https://social-web-client.herokuapp.com/].
+
 I hope you like this! Many thanks ^^
