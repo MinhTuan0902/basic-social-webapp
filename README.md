@@ -13,9 +13,9 @@ Hi! This is my first project.
 - CRUD post, comment
 - Like/Unlike a post
 - Follow/Unfollow an user
-- Message over WebSocket (use socket.io package
+- Message over WebSocket (use socket.io package)
 - Search user by username
 
-Link to test -> [https://social-web-client.herokuapp.com/].
+Link to test this [BasicSocialWebApp]([https://duckduckgo.com](https://social-web-client.herokuapp.com/)).
 
 I hope you like this! Many thanks ^^
