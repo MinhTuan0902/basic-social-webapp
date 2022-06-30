@@ -1,0 +1,36 @@
+require("dotenv").config();
+
+// APP
+const PORT = parseInt(process.env.PORT) || 8000;
+
+// MONGO
+const MONGO_URI = process.env.MONGO_URI;
+
+// BCRYPT
+const BCRYPT_SALT = parseInt(process.env.BCRYPT_SALT) || 10;
+
+// CLOUDINARY
+const CLOUD_NAME = process.env.CLOUD_NAME;
+const CLOUD_API_KEY = process.env.CLOUD_API_KEY;
+const CLOUD_API_SECRET = process.env.CLOUD_API_SECRET;
+const CLOUD_FOLDER = process.env.CLOUD_FOLDER;
+
+// JSONWEBTOKEN
+const JWT_ACCESS_TOKEN_SECRET = process.env.JWT_ACCESS_TOKEN_SECRET;
+const JWT_ACCESS_TOKEN_TIMEOUT = process.env.JWT_ACCESS_TOKEN_TIMEOUT;
+const JWT_REFRESH_TOKEN_SECRET = process.env.JWT_REFRESH_TOKEN_SECRET;
+const JWT_REFRESH_TOKEN_TIMEOUT = process.env.JWT_REFRESH_TOKEN_TIMEOUT;
+
+module.exports = {
+  PORT,
+  MONGO_URI,
+  BCRYPT_SALT,
+  CLOUD_NAME,
+  CLOUD_API_KEY,
+  CLOUD_API_SECRET,
+  CLOUD_FOLDER,
+  JWT_ACCESS_TOKEN_SECRET,
+  JWT_ACCESS_TOKEN_TIMEOUT,
+  JWT_REFRESH_TOKEN_SECRET,
+  JWT_REFRESH_TOKEN_TIMEOUT,
+};
