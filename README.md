@@ -10,7 +10,8 @@ Hi! This is my first project.
 ## Features
 - JWT Authentication
 - Login/Register
-- CRUD post, comment
+- CRUD post (include an image), comment
+- Update profile, avatar
 - Like/Unlike a post
 - Follow/Unfollow an user
 - Message over WebSocket (use socket.io package)
